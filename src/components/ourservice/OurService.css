@@ -1,0 +1,38 @@
+#service{
+    display: flex;
+    flex-direction: row;
+    background-image: url('../../assets/service.jpg');
+    background-size:cover;
+    background-position: center;
+    height: 70vh;
+    color: #fff;
+    flex-wrap: wrap;
+    font-size: x-large;
+}
+
+.service-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    text-shadow: 4px 4px 50px rgba(255,255,255,0.5);
+}
+
+.service-container{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.service-container-items{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.service-container-items h2{
+    text-shadow: 4px 4px 50px rgba(255,255,255,0.5);
+}
+

@@ -1,0 +1,32 @@
+section{
+    background-color: rgb(190, 190, 190);
+    padding: 30px;
+    margin-top: 40vh;
+}
+
+section h1{
+    text-align: center;
+    text-decoration: underline;
+    letter-spacing: 4px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.brand-container{
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.brand-container-items{
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    display: flex;
+    justify-content:center;
+}
+
